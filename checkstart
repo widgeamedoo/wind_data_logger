@@ -1,0 +1,14 @@
+#!/bin/sh
+#Check for running instance of process wdl...
+MYPROG="wdl"
+RESTARTDIR="cd /home/pi/weather"
+RESTART="/home/pi/weather/wdl"
+PGREP="/usr/bin/pgrep"
+# find myprog pid
+$PGREP ${MYPROG}
+# if not running
+if [ $? -ne 0 ]
+then
+   $RESTARTDIR
+   $RESTART
+fi
