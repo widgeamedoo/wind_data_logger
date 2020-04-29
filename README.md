@@ -1,5 +1,6 @@
 # wind_data_logger
 Wind data logger interface for raspberry pi to publish wind data on a website using Tobi Oeticker graphs.
+I rehashed the Aerosharp software to achieve this software
 The create_rrd_graphs.sh script generate the graph inages, run this from cron.
 This requires an RS232 to USB interface to conect to a wind data logger.
 Provides daily, weekly, monthly, yearly outputs.
