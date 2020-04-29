@@ -1,5 +1,6 @@
 # wind_data_logger
-wind data logger interface for raspberry pi to publish wind data on a website usint Tobi Oeticker graphs.
+Wind data logger interface for raspberry pi to publish wind data on a website using Tobi Oeticker graphs.
+The create_rrd_graphs.sh script generate the graph inages, run this from cron.
 This requires an RS232 to USB interface to conect to a wind data logger.
 Provides daily, weekly, monthly, yearly outputs.
 Need a bit of work on the graph outptu - particularly on the Yearly graph.
